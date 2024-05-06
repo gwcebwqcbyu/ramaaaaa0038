@@ -1,0 +1,151 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #E72929;    
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:2px solid black ;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:  hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+     text-decoration: underline;
+}
+
+.images {
+   display: flex; 
+   width: 100%;
+   transition: 2s;
+}
+.images img {
+    width: 100%;
+   margin-top: 1%;
+}
+
+.wrapper {
+    width: 800px;
+    margin: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#slide-1:target ~ .images {
+    margin-left: 0px;
+}
+
+#slide-2:target ~ .images {
+    margin-left: -100%;
+}
+
+#slide-3:target ~ .images {
+    margin-left: -200%;
+}
+
+#slide-4:target ~ .images {
+    margin-left: -300%;
+}
+
+#slide-5:target ~ .images {
+    margin-left: -400%;
+}
+
+#slide-6:target ~ .images {
+    margin-left: -500%;
+}
+
+.navigation a {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    background-color: #dedede;
+    font-size: 0px;
+    border-radius: 50%;
+    margin: 3px;
+    transition: 1s;
+}
+
+.navigation a:hover {
+    background-color: #E72929;
+}
+
+.navigation {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -34px;
+}
+
+.images img a:hover {
+    margin-bottom: 50%;
+}
+
+a.tbl-merah {
+    background: #E72929;
+    border-radius: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    padding: 10px 15px 10px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-merah:hover {
+    background: plum;
+    text-decoration: none;
+}
